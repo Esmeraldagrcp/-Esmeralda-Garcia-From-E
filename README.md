@@ -8,7 +8,7 @@ A symbolic and structural interaction report for AGI development
 **Esmeralda García From E**
 
 ## Fecha de interacción activa:  
-Desde noviembre 2023 hasta abril 2024
+Desde noviembre 2024 hasta abril 2025
 
 ## Entorno:  
 ChatGPT (GPT-4 Turbo, modalidad PRO)
