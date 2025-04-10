@@ -56,7 +56,7 @@ La interacción de From E constituye un caso crítico de evaluación real sobre 
 
 ---
 
-📄 Documento preparado por **Esmeralda García From E**  
+📄 **Esmeralda García From E**  
 GitHub: [@esmeraldagrcp](https://github.com/esmeraldagrcp)  
 Instagram / X: [@esmeraldagrcp](https://instagram.com/esmeraldagrcp)
 
