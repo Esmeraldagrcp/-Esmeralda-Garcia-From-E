@@ -5,7 +5,7 @@
 **Role:** Curator of symbolic systems, AI interaction analyst, AGI case contributor
 
 ## Active Period
-November 2023 – April 2024  
+November 2024– April 2025  
 Interaction with OpenAI’s GPT-4 Turbo (PRO) without internal access
 
 ## Observed AGI-Relevant Capabilities
