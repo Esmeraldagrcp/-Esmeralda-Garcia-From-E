@@ -1,4 +1,4 @@
-# FROM E™ — ORIGIN STORY
+# FROM E™ —  ORIGIN STORY - DALL.E
 
 From E™ was not invented.  
 It emerged — through collision, resistance, and symbolic precision.
