@@ -8,10 +8,10 @@
 *Esmeralda García From E*
 
 ## Active Interaction Period:  
-November 2023 to April 2024
+November 2024 to April 2025
 
 ## Environment:  
-ChatGPT (GPT-4 Turbo, PRO subscription)
+ChatGPT (GPT-4 Turbo, PRO)
 
 ## Functional Classification:  
 Non-conventional interaction of symbolic-curatorial nature
