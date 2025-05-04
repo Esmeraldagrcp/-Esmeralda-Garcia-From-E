@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medios de comunicación de Vancouver</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <!-- tu contenido -->
-  </body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Proyectos - Tu Marca</title>
+  <!-- Enlaza tu CSS personalizado o framework -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navegación -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">MiLogo</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/works" class="active">Proyectos</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección de Proyectos -->
+  <section id="works" class="works-section">
+    <div class="container">
+      <h1 class="section-title">Nuestros Proyectos</h1>
+
+      <!-- Filtros -->
+      <ul class="filters">
+        <li><button data-filter="*" class="filter-btn active">Todos</button></li>
+        <li><button data-filter="branding" class="filter-btn">Branding</button></li>
+        <li><button data-filter="web" class="filter-btn">Web</button></li>
+        <li><button data-filter="video" class="filter-btn">Video</button></li>
+      </ul>
+
+      <!-- Grid de Proyectos -->
+      <div class="grid">
+        <!-- Cada proyecto -->
+        <div class="grid-item" data-category="branding">
+          <a href="/detalle/proyecto-1.html">
+            <figure>
+              <img src="path/to/imagen1.jpg" alt="Proyecto 1">
+              <figcaption>
+                <h2 class="project-title">Proyecto 1</h2>
+                <p class="project-cat">Branding</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <!-- Duplica y adapta para cada proyecto -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Script de filtrado -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filters = document.querySelectorAll('.filter-btn');
+      const items = document.querySelectorAll('.grid-item');
+
+      filters.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filters.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filtro = btn.getAttribute('data-filter');
+          items.forEach(item => {
+            const cat = item.getAttribute('data-category');
+            if (filtro === '*' || cat === filtro) {
+              item.style.display = '';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
 </html>
+
+
